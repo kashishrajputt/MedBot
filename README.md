@@ -33,22 +33,6 @@ MedBot is an advanced Retrieval-Augmented Generation (RAG) medical chatbot desig
 
 ---
 
-## 🧱 System Architecture
-
-```mermaid
-graph TD
-    A[User Input] --> B[Langchain Prompt + Input]
-    B --> C[Retriever (Vector Store)]
-    C --> D[Retrieve Relevant Medical Docs]
-    D --> E[Combine with Prompt]
-    E --> F[LLM (Groq/OpenAI)]
-    F --> G[Response with TSS + Next Steps]
-````
-
----
-
-
-
 
 ---
 
